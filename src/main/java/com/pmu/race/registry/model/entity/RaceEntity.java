@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -12,7 +11,6 @@ import java.util.UUID;
 
 @Entity
 @Table(name = "race")
-@ToString
 @Getter
 @Setter
 public class RaceEntity {
